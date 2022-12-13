@@ -166,7 +166,7 @@ b {
     cursor: pointer;
 }
 
-p {
+.copy {
     color: white;
     position: absolute;
     margin-top: 47%;
