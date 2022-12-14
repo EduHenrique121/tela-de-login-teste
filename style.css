@@ -3,6 +3,16 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+.logo_nuvem {
+    position: absolute;
+    height: 23vh;
+    width: 23vh;
+    margin-top: 5%;
+    margin-left: 10.4%;
+    transition: margin-top 0.4s ease;
+    transition: margin-left 0.4s ease;
+}
+
 .container_img {
     position: absolute;
     width: 100vw;
@@ -22,6 +32,11 @@ body {
     margin-left: 11%;
     color: rgb(253, 253, 253);
     cursor: default;
+    transition: margin-top 0.2s ease;
+}
+
+.titulo:hover {
+    margin-top: 14%;
 }
 
 .caixa_login {
